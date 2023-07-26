@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+       position: relative;
+    margin: 0;
+    min-height: 100vh;
+}
+
+header{
+    width: 100vw;
+    height: 100px;
+    position: relative;
+}
+
+.navbar{
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(92, 0, 43);
+    position: fixed;
+}
+
+.logo h2{
+    color: white;
+    margin-left: 20px;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+    padding: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(185, 35, 80, 0.295);
+}
+
+.navlinks a:hover{
+    background-color: rgba(184, 0, 0, 0.13);
+}
+
+.login{
+    margin-right: 20px;
+}
+.login #btn{
+    border-radius: 5px;
+    border-style: none;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.login #btn:hover{
+    background-color: rgb(194, 0, 0);
+    color: white;
+}
+
+.contents{
+    display: block;
+}
+
+.para figure img{
+    width: 300px;
+    height: 400px;
+}
+
+.img2{
+    margin-bottom: 130px;
+}
+
+.para{
+    display: flex;
+    flex-wrap: nowrap;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+p{
+    margin-top: 20px;
+    text-indent: 80px;
+    text-align: justify;
+    margin: 25px;
+}
+
+footer{
+    display: flex;
+    background-color: rgb(31, 0, 0);
+    width: 100vw;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 30px;
+    justify-content: space-evenly;
+    position: absolute;
+}
+
+.copy{
+    align-items: center;
+    color: white;
+    text-align: center;
+}
+
+address{
+    text-align: center;
+    color: white;
+}
+
